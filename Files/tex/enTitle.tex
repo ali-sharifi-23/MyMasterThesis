@@ -1,0 +1,25 @@
+% !TeX root=../main.tex
+% در این فایل، عنوان پایان‌نامه، مشخصات خود و چکیده پایان‌نامه را به انگلیسی، وارد کنید.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\latinuniversity{K. N. Toosi University of Technology}
+\latincollege{...}
+\latinfaculty{Faculty of Electrical Engineering}
+\latindepartment{Control Group}
+\latinsubject{Electrical Engineering}
+%\latinfield{field}
+\latintitle{‫‪Development‬‬ ‫‪of‬‬ ‫‪a‬‬ ‫‪Graph-Based‬‬ ‫‪Unified‬‬ ‫‪Optimization‬‬ ‫‪Framework‬‬ ‫‪for‬‬ ‫‪Robot‬‬ ‫‪Calibration‬‬ ‫‪and‬‬ ‫‪State‬‬ ‫‪Estimation‬‬}
+\firstlatinsupervisor{Prof. Hamid D. Taghirad}
+%\secondlatinsupervisor{Second Supervisor}
+\firstlatinadvisor{Prof. Philippe Cardou}
+\secondlatinadvisor{Dr. Seyed Ahmad Khalilpour}
+\latinname{Mohammadreza}
+\latinsurname{Dindarloo}
+\latinthesisdate{Winter 2024}
+\latinkeywords{Factor Graph, Calibration, Localization, SLAM}
+\en-abstract{
+In today's world, robot manufacturers seek to simplify usage and enhance operational accuracy, which involves reducing repetitive processes such as sensor and robot calibration. On the other hand, given the importance of precise localization, recent research has been moving towards novel methods based on graphs and sensor data fusion.
+In this thesis, we start from this familiar point and review recent methods. Using a platform that graph-based algorithms provide, we will develop a graph that not only performs localization effectively but also simultaneously handles sensor calibration and, taking it a step further, robot calibration without the need for separate processes. This approach creates an integrated and flexible solution, ensuring that adding any new constraints does not affect previous formulations.
+The algorithm chosen for this formulation is the factor graph, whose ability to manage computational complexities through optimal matrices and the use of a graph architecture accelerates convergence and enhances the stability of the results. Furthermore, factor graphs allow for the seamless integration of heterogeneous data from various sensors, which leads to increased accuracy and reduces dependency on a single data source.
+To validate the proposed method, an underactuated parallel cable robot is considered. Initially, an integrated problem is formulated in the graph space to simultaneously perform vision sensor calibration, localization, and robot kinematic calibration without the need for prior processes, thereby achieving the easy-installation concept. Then, to assess the flexibility and evaluate the graph, the sagging equations of cables, which are among the most complex equations in the field of robotics, are added to the graph, and the results will be analyzed. The results demonstrate the high capability of this method in creating a flexible formulation that not only speeds up the process but also improves localization and calibration accuracy.
+}
